@@ -386,7 +386,7 @@ export default function PortfolioPage() {
                   </motion.div>
                 </TabsContent>
 
-                <TabsContent value="projects" className="mt-6">
+                {/* <TabsContent value="projects" className="mt-6">
                   <div className="mb-8">
                     <div className="flex items-center justify-between">
                       <h3 className="text-2xl font-bold">Featured Projects</h3>
@@ -457,7 +457,7 @@ export default function PortfolioPage() {
                       </motion.div>
                     ))}
                   </motion.div>
-                </TabsContent>
+                </TabsContent> */}
 
                 <TabsContent value="education" className="space-y-8 mt-6">
                   <motion.div className="space-y-8" variants={containerVariants} initial="hidden" animate="visible">
