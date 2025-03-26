@@ -561,15 +561,15 @@ export default function PortfolioPage() {
                     <div className="space-y-3">
                       <div className="flex items-center gap-3">
                         <Mail className="h-5 w-5 text-primary" />
-                        <p className="text-muted-foreground">mohtsham@example.com</p>
+                        <p className="text-muted-foreground">rahmanlaraib11@gmail.com</p>
                       </div>
-                      <div className="flex items-center gap-3">
+                      {/* <div className="flex items-center gap-3">
                         <Globe className="h-5 w-5 text-primary" />
                         <p className="text-muted-foreground">www.mohtsham.dev</p>
-                      </div>
+                      </div> */}
                       <div className="flex items-center gap-3">
                         <Terminal className="h-5 w-5 text-primary" />
-                        <p className="text-muted-foreground">Based in San Francisco, CA</p>
+                        <p className="text-muted-foreground">India</p>
                       </div>
                     </div>
                     <div className="pt-4">
