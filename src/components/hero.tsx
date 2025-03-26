@@ -19,7 +19,7 @@ export default function Home() {
   const y = useTransform(scrollYProgress, [0, 1], [0, -50]);
 
   return (
-    <div className="min-h-screen bg-[url('/path-to-your-contact-page-bg-image.jpg')] bg-cover bg-center bg-fixed pt-16 relative overflow-hidden">
+    <div className="min-h-screen bg-black bg-cover bg-center bg-fixed pt-16 relative overflow-hidden">
       <div className="absolute inset-0 bg-black/40" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[calc(100vh-4rem)]">
@@ -40,11 +40,14 @@ export default function Home() {
             <p className="text-xl text-white max-w-md">
               Crafting digital experiences that blend creativity with cutting-edge technology.
             </p>
+            <br />
+            <Link href="/projects">
             <div className="flex items-center space-x-4">
               <Button size="lg" className="rounded-full text-lg px-8 py-6 bg-primary text-primary-foreground hover:bg-primary/90">
                 Explore My Work
               </Button>
             </div>
+            </Link>
           </motion.div>
 
           {/* Right Content with Image and Info */}

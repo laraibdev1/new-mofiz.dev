@@ -115,7 +115,7 @@ export default function Projects() {
   if (!mounted) return null;
 
   return (
-    <section className="py-20 bg-black text-white min-h-screen">
+    <section className="py-20 bg-slate-950 text-white min-h-screen">
       <div className="container mx-auto px-4">
         <motion.div style={{ y }} className="flex justify-between items-center mb-12">
           <motion.h2
@@ -124,10 +124,7 @@ export default function Projects() {
             transition={{ duration: 0.5 }}
             className="text-3xl md:text-4xl font-bold text-purple-400"
           >
-            <br /><br /><br />
-            <br /><br /><br />
-            <br /><br /><br />
-            <br /><br /><br />
+            
             My Projects
           </motion.h2>
           <Button

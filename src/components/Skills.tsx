@@ -173,7 +173,7 @@ export default function Skills() {
     : skills;
 
   return (
-    <section id="skills" ref={sectionRef} className="py-20 bg-gradient-to-br from-black to-purple-900 text-white relative overflow-hidden">
+    <section id="skills" ref={sectionRef} className="py-20 bg-slate-950 text-white">
       <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:20px_20px]" />
       <div className="container mx-auto px-4 relative z-10">
         <motion.h2

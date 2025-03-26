@@ -12,7 +12,7 @@ import {
 export function Navbar() {
   const menuItems = [
     { title: 'Home', href: '/' },
-    { title: 'About', href: '/About' },
+    { title: 'About', href: '/about' },
     { title: 'Blog', href: '#blog' },
     { title: 'Portfolio', href: '/port-folio' },
     { title: 'contact', href: '/Contact' },

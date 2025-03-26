@@ -146,7 +146,7 @@ export default function Contact() {
   }
 
   return (
-    <section id="contact" className="py-20 px-4">
+    <section id="contact" className="py-20 bg-slate-950 px-4">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -191,7 +191,7 @@ export default function Contact() {
                   </a>
 
                   <a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/laraibdev1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 rounded-lg bg-background/50 hover:bg-background/80 transition-colors duration-300"
@@ -201,12 +201,12 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-medium">GitHub</h4>
-                      <p className="text-sm text-muted-foreground">github.com/yourusername</p>
+                      <p className="text-sm text-muted-foreground">github.com/laraibdev1</p>
                     </div>
                   </a>
 
                   <a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://www.linkedin.com/in/md-mohtasham-mofiz-138bb42ab/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 rounded-lg bg-background/50 hover:bg-background/80 transition-colors duration-300"
@@ -216,7 +216,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <h4 className="font-medium">LinkedIn</h4>
-                      <p className="text-sm text-muted-foreground">linkedin.com/in/yourusername</p>
+                      <p className="text-sm text-muted-foreground">linkedin.com/in/md-mohtasham-mofiz-138bb42ab</p>
                     </div>
                   </a>
                 </div>

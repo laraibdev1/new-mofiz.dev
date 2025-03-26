@@ -9,30 +9,37 @@ import SectionHeading from "./section-heading"
 const contributions = [
   {
     id: 1,
-    title: "Authentication System Overhaul",
-    description: "Implemented a new authentication system with OAuth integration and improved security features.",
-    image: "/image.png",
-    prLink: "https://github.com/mofyzy/forge/pull/123",
+    title: "Ecommerce App",
+    description: "An Ecommerce App with Clerk Authentication Using Next js .",
+    image: "/mofEcom.png",
+    prLink: "https://mofyzyforge-rho.vercel.app/templates/ecommerce-app/preview",
   },
   {
     id: 2,
-    title: "Performance Optimization",
-    description: "Reduced page load time by 40% through code splitting, lazy loading, and asset optimization.",
-    image: "/image.png",
-    prLink: "https://github.com/mofyzy/forge/pull/456",
+    title: "Frontend Chat App ",
+    description: "A Full Stack Chat App Made With Next js .",
+    image: "/chatr.png",
+    prLink: "https://mofyzyforge-rho.vercel.app/templates/chat-frontend/preview",
   },
   {
     id: 3,
-    title: "Responsive Design Implementation",
-    description: "Redesigned the UI to be fully responsive across all device sizes with improved accessibility.",
-    image: "/image.png",
-    prLink: "https://github.com/mofyzy/forge/pull/789",
+    title: "Backedn Chat App",
+    description: "Mofyzy Chat App Backend Made Using Flask .",
+    image: "/chat-back.png",
+    prLink: "https://mofyzyforge-rho.vercel.app/templates/chat-backend/preview",
+  },
+  {
+    id: 4,
+    title: "Quiz App",
+    description: "A Full Stack Quiz App Made with Next js And FLask.",
+    image: "/quiz.png",
+    prLink: "https://mofyzyforge-rho.vercel.app/templates/quiz-app/preview",
   },
 ]
 
 export default function MofyzySection() {
   return (
-    <section id="mofyzy" className="py-20">
+    <section id="mofyzy" className="py-20 bg-black">
       <div className="container mx-auto px-4">
         <SectionHeading
           title="Mofyzy Forge Contributions"
@@ -72,10 +79,10 @@ export default function MofyzySection() {
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            <Button asChild variant="outline" className="gap-2">
-              <a href="https://github.com/mofyzy/forge" target="_blank" rel="noopener noreferrer">
+            <Button asChild variant="outline" className="gap-2 bg-primary text-primary-foreground ">
+              <a href="https://mofyzyforge-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <Github size={18} />
-                View on GitHub
+                View Library
               </a>
             </Button>
           </motion.div>
@@ -93,7 +100,7 @@ export default function MofyzySection() {
             >
               <div className="flex-1">
                 <motion.div
-                  className="rounded-xl overflow-hidden shadow-lg border border-border/50 bg-background/50 backdrop-blur-sm"
+                  className="rounded-xl overflow-hidden shadow-lg border border-border/50 bg-white backdrop-blur-sm"
                   whileHover={{ scale: 1.02 }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
                 >
@@ -110,7 +117,7 @@ export default function MofyzySection() {
                 <p className="text-muted-foreground">{contribution.description}</p>
                 <Button asChild variant="link" className="p-0 gap-2 text-primary">
                   <a href={contribution.prLink} target="_blank" rel="noopener noreferrer">
-                    View Pull Request
+                    View In Library
                     <ExternalLink size={16} />
                   </a>
                 </Button>

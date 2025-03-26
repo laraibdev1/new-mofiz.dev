@@ -36,7 +36,7 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section id="experience" className="py-20 bg-black text-white relative overflow-hidden">
+    <section id="experience" className="py-20 bg-black text-white relative ove  rflow-hidden">
       <div className="absolute inset-0 bg-grid-white/[0.02] bg-[size:20px_20px]" />
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl font-bold mb-12 text-center text-purple-400">
