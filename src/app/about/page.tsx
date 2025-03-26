@@ -502,7 +502,7 @@ export default function PortfolioPage() {
                                   <p className="text-primary font-medium">Madhupur Polytechnic</p>
                                 </div>
                                 <p className="text-sm text-muted-foreground bg-muted px-3 py-1 rounded-full md:ml-4">
-                                  2011 - 2015
+                                  2022-2025
                                 </p>
                               </div>
                               <p className="mt-4 leading-relaxed text-muted-foreground">
