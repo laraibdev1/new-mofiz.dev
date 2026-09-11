@@ -11,6 +11,13 @@ const Icons = {
 
 const experiences = [
   {
+    title: 'Founder',
+    company: 'Vigil',
+    period: '2026 - Present',
+    description: 'Building a DPDP compliance platform for Indian startups — audits policies against the actual DPDP Act and Rules text, tracks compliance gaps over time, and helps close them with document templates, an embeddable consent widget, and a data-subject-request portal. Built solo with Next.js, Supabase, and Groq.',
+    icon: <Icons.Code className="h-6 w-6" />,
+  },
+  {
     title: 'Freelance Web Developer',
     company: 'Freelance / Agency',
     period: '2024 - Present',
