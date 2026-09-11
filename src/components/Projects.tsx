@@ -21,12 +21,12 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: 'DevXcelerate',
-    description: 'DevXcelerate is an online study platform for developers. In this project, I used the YouTube API to fetch video data. The app is still under development.',
+    title: 'Vigil',
+    description: 'An ongoing DPDP compliance platform for Indian startups — audits policies against the actual DPDP Act and Rules text, then helps close gaps with document templates, an embeddable consent widget, and a data-subject-request portal.',
     image: '/dummy.png',
-    link: 'https://dev-x-mofiz.vercel.app/',
+    link: 'https://aishieldhq.in',
     category: 'Full Stack',
-    technologies: ['Next.js', 'React', 'Tailwind CSS'],
+    technologies: ['Next.js', 'Supabase', 'Groq', 'RAG'],
     featured: true,
   },
   {
@@ -273,4 +273,3 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
     </motion.div>
   );
 }
-
